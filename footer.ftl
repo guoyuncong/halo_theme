@@ -1,6 +1,6 @@
 <#import "functions.ftl" as fun>
 <footer id="footer" class="footer bg-white">
-	<div class="footer-social">
+	<#--<div class="footer-social">
 		<div class="footer-container clearfix">
 			<div class="social-list">
                 <#if settings.weibo??>
@@ -17,34 +17,7 @@
                 </#if>
 			</div>
 		</div>
-	</div>
-	<div class="footer-meta">
-		<div class="footer-container">
-			<div class="meta-item meta-copyright">
-				<div class="meta-copyright-info">
-                    <a href="${blog_url!}" class="info-logo">
-                        <#if settings.footer_logo??>
-                        <img src="${settings.footer_logo}" alt="${blog_title!}" />
-                        <#else>
-                        ${blog_title!}
-                        </#if>
-                    </a>
-					<div class="info-text">
-						<p>&copy; ${.now?string("yyyy")} <a href="${blog_url!}">${blog_title!}</a></p>
-                        <p><@global.footer /></p>
-					</div>
-				</div>
-			</div>
-			<div class="meta-item meta-posts">
-				<h3 class="meta-title">RECENT POSTS</h3>
-                <@fun.getRecentPosts 8/>
-			</div>
-            <div class="meta-item meta-comments">
-                <h3 class="meta-title">RECENT COMMENTS</h3>
-                <@fun.getRecentComments 8 />
-            </div>
-		</div>
-	</div>
+	</div>-->
 </footer>
 
 <#if (settings.post_toc!false) && post??>
