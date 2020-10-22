@@ -1,8 +1,9 @@
 <style>
-    .comment-container{
+   /* .comment-container{
         z-index: 3!important;
-    }
+    }*/
 </style>
+<#--
 <#macro comment post,type>
     <#if !post.disallowComment!false>
         <div class="comment-container">
@@ -13,4 +14,4 @@
             </div>
         </div>
     </#if>
-</#macro>
+</#macro>-->
