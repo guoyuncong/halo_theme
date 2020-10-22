@@ -30,8 +30,6 @@
                         </#if>
                     </a>
 					<div class="info-text">
-                    	<p>Theme is <a href="https://github.com/chakhsu/pinghsu" target="_blank">Pinghsu</a> by <a href="https://www.linpx.com/" target="_blank">Chakhsu</a></p>
-						<p>Powered by <a href="https://halo.run" target="_blank" rel="nofollow">Halo</a></p>
 						<p>&copy; ${.now?string("yyyy")} <a href="${blog_url!}">${blog_title!}</a></p>
                         <p><@global.footer /></p>
 					</div>
