@@ -129,4 +129,4 @@
     </div>
 <#--<#include "comment.ftl">
 <@comment post=post type="post" />-->
-<#include "footer.ftl">
+

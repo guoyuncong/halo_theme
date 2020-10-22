@@ -18,7 +18,9 @@
 			</div>
 		</div>
 	</div>-->
-    最怕你碌碌无为，却安慰自己平凡可贵
+    <div class="">
+        最怕你碌碌无为，却安慰自己平凡可贵
+    </div>
 </footer>
 
 <#if (settings.post_toc!false) && post??>
