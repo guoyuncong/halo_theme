@@ -19,7 +19,6 @@
                         <#if post.categories?? && post.categories?size gt 0>
                             <a href="${post.categories[0].fullPath!}">${post.categories[0].name}</a>
                         </#if>
-                        with<a href="#comments"> ${post.commentCount!0} comment</a>
                     </div>
                     <div class="post-tags">
                         <#if tags?? && tags?size gt 0>
@@ -47,7 +46,6 @@
                         <#if post.categories?? && post.categories?size gt 0>
                             <a href="${post.categories[0].fullPath!}">${post.categories[0].name}</a>
                         </#if>
-                        with<a href="#comments"> ${post.commentCount!0} comment</a>
                     </div>
                     <div class="post-tags">
                         <#if tags?? && tags?size gt 0>
@@ -74,7 +72,6 @@
                 <#if post.categories?? && post.categories?size gt 0>
                     <a href="${post.categories[0].fullPath!}">${post.categories[0].name}</a>
                 </#if>
-                with<a href="#comments"> ${post.commentCount!0} comment</a>
             </div>
         </div>
         <div id="post-content" class="post-content" itemprop="articleBody">
@@ -130,6 +127,6 @@
             </div>
         </div>
     </div>
-<#include "comment.ftl">
-<@comment post=post type="post" />
+<#--<#include "comment.ftl">
+<@comment post=post type="post" />-->
 <#include "footer.ftl">
