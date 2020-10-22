@@ -9,7 +9,6 @@
                 <#if settings.zhihu??>
                     <a class="social zhihu" target="blank" href="${settings.zhihu!}">ZHIHU</a>
                 </#if>
-                    <a class="social rss" target="blank" href="${context!}/feed/">RSS</a>
                 <#if settings.github??>
 				    <a class="social github" target="blank" href="${settings.github!}">GITHUB</a>
                 </#if>
