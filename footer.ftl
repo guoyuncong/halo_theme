@@ -1,5 +1,5 @@
 <#import "functions.ftl" as fun>
-<footer id="footer" class="footer bg-white">
+<footer id="footer" class="footer bg-grey">
 	<#--<div class="footer-social">
 		<div class="footer-container clearfix">
 			<div class="social-list">
@@ -18,9 +18,7 @@
 			</div>
 		</div>
 	</div>-->
-    <div>
-        最怕你碌碌无为，却安慰自己平凡可贵
-    </div>
+    最怕你碌碌无为，却安慰自己平凡可贵
 </footer>
 
 <#if (settings.post_toc!false) && post??>
