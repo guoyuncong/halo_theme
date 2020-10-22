@@ -1,8 +1,8 @@
-id: chakhsu_pinghsu
-name: Pinghsu
+id: block
+name: block
 author:
-  name: Chakhsu.Lau
-  website: https://www.linpx.com
+  name: congcong
+  website: www.guoyuncong.com
 description:
 logo:
 website: https://github.com/guoyuncong/halo_theme
