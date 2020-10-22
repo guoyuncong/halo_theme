@@ -13,7 +13,7 @@
                     </div>
                     <div class="post-header-thumb-meta">
                         <time datetime="${post.createTime}" itemprop="datePublished">
-                            Published on ${post.createTime?string('MMM d,yyyy')}
+                            Published on ${post.createTime?string('yyyy.MM.dd')}
                         </time>
                         in
                         <#if post.categories?? && post.categories?size gt 0>
@@ -40,7 +40,7 @@
                     </div>
                     <div class="post-header-thumb-meta">
                         <time datetime="${post.createTime}" itemprop="datePublished">
-                            Published on ${post.createTime?string('MMM d,yyyy')}
+                            Published on ${post.createTime?string('yyyy.MM.dd')}
                         </time>
                         in
                         <#if post.categories?? && post.categories?size gt 0>
@@ -66,7 +66,7 @@
             </h1>
             <div class="post-data">
                 <time datetime="${post.createTime}" itemprop="datePublished">
-                    Published on ${post.createTime?string('MMM d,yyyy')}
+                    Published on ${post.createTime?string('yyyy.MM.dd')}
                 </time>
                 in
                 <#if post.categories?? && post.categories?size gt 0>

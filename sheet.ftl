@@ -7,7 +7,7 @@
 			${post.title!}
 		</h1>
 		<div class="post-data">
-			<time datetime="${post.createTime!}" itemprop="datePublished">Published on ${post.createTime?string('MMM d,yyyy')}</time>
+			<time datetime="${post.createTime!}" itemprop="datePublished">Published on ${post.createTime?string('yyyy.MM.dd')}</time>
 		</div>
 	</div>
 	<div id="post-content" class="post-content">

@@ -54,7 +54,7 @@
                                 </div>
                                 <div class="item-meta">
                                     <time datetime="${post.createTime}" itemprop="datePublished">
-                                        发布于 ${post.createTime?string('MMM d,yyyy')}
+                                        发布于 ${post.createTime?string('yyyy.MM.dd')}
                                     </time>in
                                     <#if post.categories?? && post.categories?size gt 0>
                                         <a href="${post.categories[0].fullPath!}">${post.categories[0].name}</a>

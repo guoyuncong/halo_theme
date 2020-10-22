@@ -24,7 +24,7 @@
 												<div class="item-label">
 													<div class="item-title"><a href="${post.fullPath!}">${post.title!}</a></div>
 													<div class="item-meta clearfix">
-														<div class="item-meta-date"> ${post.createTime?string('MMM d,yyyy')} </div>
+														<div class="item-meta-date"> ${post.createTime?string('yyyy.MM.dd')} </div>
 													</div>
 												</div>
 											</div>
