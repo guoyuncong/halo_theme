@@ -40,4 +40,3 @@
 	</@categoryTag>
 </div>
 
-<#include "footer.ftl">
