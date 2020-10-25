@@ -58,4 +58,3 @@
         </#if>
     </div>
 </div>
-<#include "footer.ftl">
