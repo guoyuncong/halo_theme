@@ -89,7 +89,7 @@
     <div id="post-bottom-bar" class="post-bottom-bar">
         <div class="bottom-bar-inner">
             <div class="bottom-bar-items social-share left">
-                <span class="bottom-bar-item">Share : </span>
+                <#--<span class="bottom-bar-item">Share : </span>
                 <span class="bottom-bar-item bottom-bar-facebook">
                     <a href="https://www.facebook.com/sharer/sharer.php?u=${post.fullPath!}" target="_blank" title="${post.title!}" rel="nofollow">
                         facebook
@@ -104,7 +104,7 @@
                     <a href="http://service.weibo.com/share/share.php?url=${post.fullPath!}&amp;title=${post.title!}" target="_blank" title="${post.title!}" rel="nofollow">
                         Weibo
                     </a>
-                </span>
+                </span>-->
                 <#--  <span class="bottom-bar-item bottom-bar-qrcode">
                     <a href="//pan.baidu.com/share/qrcode?w=300&amp;h=300&amp;url=${post.fullPath!}" target="_blank" rel="nofollow">
                         QRcode
@@ -122,8 +122,8 @@
                         <a href="${nextPost.fullPath!}" title="${nextPost.title!}">→</a>
                     </#if>
                 </span>
-                <span class="bottom-bar-item"><a href="#footer">↓</a></span>
-                <span class="bottom-bar-item"><a href="#">↑</a></span>
+                <#--<span class="bottom-bar-item"><a href="#footer">↓</a></span>
+                <span class="bottom-bar-item"><a href="#">↑</a></span>-->
             </div>
         </div>
     </div>
